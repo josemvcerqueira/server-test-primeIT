@@ -1,6 +1,6 @@
 import { Response, Request } from 'express';
 
-import { get, controller, use } from '../decorators';
+import { get, controller } from '../decorators';
 
 interface VehicleSummary {
   id: string;

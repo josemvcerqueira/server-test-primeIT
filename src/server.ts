@@ -7,10 +7,9 @@ import helmet from 'helmet';
 
 import AppRouter from './app-router';
 import './controllers/vehicle.controller';
+import './controllers/image.controller';
 
 const app = express();
-
-app.use(express.static(path.join(__dirname, 'public')));
 
 app.use(helmet());
 
